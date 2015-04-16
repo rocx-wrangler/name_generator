@@ -5,7 +5,7 @@ from random import randint
 
 vowel = ['a', 'i', 'o', 'u']
 alpha = ['g', 'h', 'j', 'l', 'm', 'n', 'q', 'w', 'x', 'y', 'z']
-suffix = ['ng', 'zhou', 'ping', 'iang', 'eng']
+suffix = ['ng', 'zhou', 'ping', 'iang', 'eng', 'hua', 'ing']
 for i in range(1,10):
     name = ''
     name = alpha[randint(0,len(alpha)-1)]
